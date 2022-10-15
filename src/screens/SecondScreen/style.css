@@ -1,0 +1,44 @@
+.second-heading{
+   
+    color: black;
+    width: 104px;
+    height: auto;
+    font-size: 3.25rem;
+    align-self: auto;
+    text-align: center;
+    font-family: 'Exo 2';
+    font-weight: 700;
+    line-height: 110.00000238418579%;
+    font-stretch: normal;
+    margin-left: 50px;
+    margin-top: 24px;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    padding-top: 60px;
+}
+
+.second-subhead{
+    margin-left: 50px;
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 1rem;
+    width: 270px;
+    margin-top: 25px;
+}
+
+.second-head{
+    margin-top: 80px;
+}
+
+.card-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 56px;
+}
+@media (max-width:500px){
+    .card-group{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,103 @@
+.container-banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    filter: brightness(.8);
+}
+
+.width-container{
+    width: 950px;
+}
+
+.main-banner {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    border-color: transparent;
+    z-index: -999999999;
+}   
+@media (max-width: 600px) {
+    .main-banner{
+        height: 100vh;
+    }
+  }
+
+.main-banner-heading {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    width: 795px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: -30px;
+}
+
+.main-banner-heading-container {
+    display: flex;
+    justify-content: center;
+    font-size: 3.25rem;
+}
+
+.main-banner-secondary-heading-container {
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+
+}
+
+.main-banner-secondary-heading{
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.search-container{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background: linear-gradient(94.43deg, rgba(249, 249, 249, 0.49) 34.95%, rgba(249, 249, 249, 0.175) 67.01%);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    margin-top: 92px;
+}
+
+.center-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+@keyframes jumpInfinite {
+    0% {
+      margin-top: 10px;
+      opacity: 2;
+    }
+    50% {
+      margin-top: 20px;
+      opacity: 0.8;
+    }
+    100% {
+      margin-top: 10px;
+      opacity: 2;
+    }
+  }
+
+
+.godown{
+    width: 60px;
+    height: 40px;
+    margin-top: 20px;
+    /* animation: jumpInfinite 1.5s infinite; */
+}

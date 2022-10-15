@@ -1,0 +1,66 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+
+}
+/* Your Logo */
+.site-title{
+    font-size: 2.8125rem;
+    width: 11.625em;
+    height: 3.3125em;
+    margin-left: 50px;
+    margin-top: 24px;
+    font-weight: 700;
+    font-family: 'Dancing Script';
+    color: #fff;
+
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: -5px;
+}
+
+.nav-list li {
+    margin-left: 18px;
+    padding: 8px 25px;
+}
+
+nav{
+    margin-right: 48px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    font-weight: 500;
+    font-family: 'Exo 2', sans-serif;
+    color: #fff;
+}
+
+.navigation {
+    margin-top: 37px;
+    margin-right: 31px;
+}
+.button{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    width: 131px;
+    font-weight: 500;
+    border-radius: 10px;
+    padding: 14px 54px;
+    border: 2px solid #FFFFFF;
+}
+
+.button:hover{
+    transition: .5s ease;
+    color: #FFFFFF;
+    opacity: 0.3;
+  }

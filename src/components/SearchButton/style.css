@@ -1,0 +1,21 @@
+.search-btn{
+    background: linear-gradient(90deg, #FF594C 0%, #FAC527 100%);
+    border-radius: 20px;
+    border: transparent;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'Ubuntu';
+    padding: 20px 60px;
+    transform: translateY(7px);
+}
+
+.search-icon {
+    top: 4px;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    color: white;
+    transform: translate(20px,10px);
+  }
