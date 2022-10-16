@@ -11,7 +11,7 @@
 .search-container1 {
     box-sizing: border-box;
     width: 424px;
-    transform: translate(40px, -40px);
+    transform: translate(30px, -40px);
 
     background: linear-gradient(94.33deg, rgba(255, 255, 255, 0.6) 3.19%, rgba(255, 255, 255, 0.1) 99.26%);
     backdrop-filter: blur(5px);
