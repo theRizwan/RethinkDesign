@@ -1,25 +1,30 @@
-import React from 'react';
+ /* eslint-disable */
+import React, { useRef } from 'react';
+import { YOUR_LOGO } from '../../constants/constants';
 import './style.css';
 
 export default function NavBar() {
+    const ref = useRef()
+    const handleClick= () => {
+        ref.current.click()
+    }
     return (
         <>
             <header className='header'>
-                <div className='site-title'>
-                   Your Logo
-                </div>
-                <div className='navigation'>
-                    <nav>
-                        <ul className='nav-list'>
-                            <li><a href='#'>Explore</a></li>
-                            <li><a href='#'>About</a></li>
-                            <li><a href='#'>Cities</a></li>
-                        </ul>
-                    </nav>
-                    <div className='nav-btn'>
-                        <a className='button' href='#'>Call</a>
-                    </div>
-                </div>
+                <nav className='headnav'>
+                    <input ref={ref} type={'checkbox'} id='check' />
+                    <label htmlFor='check' className='checkbtn'>
+                    <i class="fa fa-bars"></i>
+
+                    </label>
+                    <label className='logo'>{YOUR_LOGO}</label>
+                    <ul className='navul'>
+                        <li className='navli'><a onClick={handleClick} href='#Second' className='exo navanchor'>Explore</a></li>
+                        <li className='navli'><a onClick={handleClick} href='#Third' className='exo navanchor'>About Us</a></li>
+                        <li className='navli'><a onClick={handleClick} href='#Fourth' className='exo navanchor'>Cities</a></li>
+                        <li className='navli'><a onClick={handleClick} href='#' className='exo navanchor'>Call</a></li>
+                    </ul>
+                </nav>
             </header>
 
         </>

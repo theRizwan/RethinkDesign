@@ -21,9 +21,9 @@ img {
     background-size: 100% 100%;
     background-size: cover;
 }   
-@media (max-width: 600px) {
-    .main-banner-img{
-        height: 100%;
+@media (max-width: 800px) {
+    .main-banner{
+        height: 100vh;
     }
   }
 
@@ -73,6 +73,11 @@ img {
     .main-banner-heading-container{
         font-size: 25px;
     }
+    .main-banner-secondary-heading-container {
+        font-weight: 400;
+        font-size: 20px;
+    }
+    
 }
 
 .search-container{
@@ -95,7 +100,9 @@ img {
         flex-direction: column;
     }
 
-    
+    .main-banner-heading {
+        margin-top: 0px;
+    }
 }
 
 .center-container{

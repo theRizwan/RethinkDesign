@@ -33,3 +33,44 @@
     border-color: transparent;
     font-family: 'Ubuntu';
 }
+
+@media (max-width:800px){
+    .btn-gradient{
+        margin: 50px;
+    }
+
+    .image-div{
+        margin-bottom: 200px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 390px;
+    }
+    
+    .search-container1{
+        padding: 5px 5px;
+        width: 390px;
+        transform: translate(5px, -40px);
+    }
+
+}
+
+@media (max-width:400px){
+    .btn-gradient{
+        margin: 20px;
+    }
+
+    .image-div{
+        margin-bottom: 200px;
+        margin-left: 10px;
+        margin-right: 5px;
+        width: 350px;
+    }
+    
+    .search-container1{
+        padding: 5px 5px;
+        width: 340px;
+        transform: translate(5px, -40px);
+    }
+    
+
+}

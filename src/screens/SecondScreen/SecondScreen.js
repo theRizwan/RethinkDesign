@@ -1,10 +1,11 @@
 import React from 'react'
 import CardComponent from '../../components/CardComponent/CardComponent'
+import { SECOND_MESSAGE } from '../../constants/constants'
 import "./style.css"
 export default function SecondScreen() {
     return (
         <>
-            <div className='second-head'>
+            <div className='second-head' id='Second'>
                 <span className="second-heading">
                     <span>Explore</span>
                 </span>
@@ -12,7 +13,7 @@ export default function SecondScreen() {
             </div>
             <div>
                 <div className='second-subhead'>
-                    From one guests rooms to penthouses with pools and gardens
+                    {SECOND_MESSAGE}
                 </div>
             </div>
             <div className='card-group'>

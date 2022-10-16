@@ -1,32 +1,26 @@
+ /* eslint-disable */
 import React from 'react';
+import { ALL_RIGHTS, COMPANY_NAME, YOUR_LOGO } from '../../constants/constants';
 import './style.css';
 
 export default function Footer() {
     return (
         <>
-            <footer className='footer-divs'>
-                <div className='div-footer'>
-                    <div className='footer-title'>
-                        Your Logo
-                    </div>
-                    <div className='copy-div'>
-                        <div className='copyright'>
-                            ©  2021  Company Name
-                            All rights reserved
-                        </div>
-                    </div>
-                </div>
-                <div className='navigation'>
-                    <nav>
-                        <ul className='nav-list2'>
-                            <li><a href='#'>Explore</a></li>
-                            <li><a href='#'>About</a></li>
-                            <li><a href='#'>Cities</a></li>
-                        </ul>
-                    </nav>
-                    <div className='nav-btn'>
-                        <a className='button2' href='#'>Call</a>
-                    </div>
+            <footer className='header1'>
+                <nav className='headnav1'>
+                    <label className='logo1' style={{ color: 'black' }}>{YOUR_LOGO}</label>
+
+
+                    <ul className='navul1'>
+                        <li className='navli1'><a href='#' style={{ color: 'black' }} className='exo navanchor1'>Explore</a></li>
+                        <li className='navli1'><a href='#' style={{ color: 'black' }} className='exo navanchor1'>About Us</a></li>
+                        <li className='navli1'><a href='#' style={{ color: 'black' }} className='exo navanchor1'>Cities</a></li>
+                        <li className='navli1'><a href='#' style={{ color: 'black' }} className='exo navanchor1'>Call</a></li>
+                    </ul>
+                </nav>
+                <div className='register'>
+                    <p className='copy'>{COMPANY_NAME}</p>
+                    <p className='rights'>{ALL_RIGHTS}</p>
                 </div>
             </footer>
         </>

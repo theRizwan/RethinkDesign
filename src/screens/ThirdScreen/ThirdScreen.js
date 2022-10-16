@@ -1,11 +1,12 @@
 import React from 'react'
 import CardWithChapter from '../../components/CardWithChapter/CardWithChapter'
+import { THIRD_MESSAGE } from '../../constants/constants';
 import './style.css';
 
 export default function ThirdScreen() {
     return (
         <>
-            <div className='second-head'>
+            <div className='second-head' id='Third'>
                 <span className="second-heading">
                     <span>About Us</span>
                 </span>
@@ -13,7 +14,7 @@ export default function ThirdScreen() {
             </div>
             <div>
                 <div className='second-subhead'>
-                    Allow us to tell you a short story...
+                    {THIRD_MESSAGE}
                 </div>
             </div>
             <div className='card-group'>

@@ -19,3 +19,9 @@
     color: white;
     transform: translate(20px,10px);
   }
+
+  @media (max-width:800px) {
+    .search-btn{
+        width: 225px;
+    }
+  }

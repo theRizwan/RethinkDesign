@@ -1,4 +1,5 @@
-import FourthScreen from "./screens/FourthScreen.js/FourthScreen";
+ /* eslint-disable */
+import Footer from "./components/Footer/Footer";
 import MainScreen from "./screens/MainScreen/MainScreen";
 import SecondScreen from "./screens/SecondScreen/SecondScreen";
 import ThirdScreen from "./screens/ThirdScreen/ThirdScreen";
@@ -6,12 +7,10 @@ import ThirdScreen from "./screens/ThirdScreen/ThirdScreen";
 function App() {
   return (
     <>
-      {/* <MainScreen />
-      <SecondScreen /> */}
-     <MainScreen />
-     <SecondScreen />
-     <ThirdScreen />
-     <FourthScreen />
+      <MainScreen />
+      <SecondScreen />
+      <ThirdScreen />
+      <Footer />
     </>
   );
 }
