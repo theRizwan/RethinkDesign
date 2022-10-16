@@ -142,3 +142,10 @@ a:hover {
 
     }
 }
+
+.btn-2{
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+
+}

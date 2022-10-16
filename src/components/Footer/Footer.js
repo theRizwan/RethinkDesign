@@ -15,7 +15,7 @@ export default function Footer() {
                         <li className='navli1'><a href='#' style={{ color: 'black' }} className='exo navanchor1'>Explore</a></li>
                         <li className='navli1'><a href='#' style={{ color: 'black' }} className='exo navanchor1'>About Us</a></li>
                         <li className='navli1'><a href='#' style={{ color: 'black' }} className='exo navanchor1'>Cities</a></li>
-                        <li className='navli1'><a href='#' style={{ color: 'black' }} className='exo navanchor1'>Call</a></li>
+                        <li className='navli1'><a href='#' style={{ color: 'black' }} className='exo navanchor1 btn-2'>Call</a></li>
                     </ul>
                 </nav>
                 <div className='register'>

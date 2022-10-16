@@ -8,7 +8,7 @@ export default function MainScreenBanner() {
     return (
         <>
 
-            <div className="container-banner" id=''>
+            <div className="container-banner">
                 <div className='main-banner-img'>
                     <img
                         src="/assets/MainBanner.png"

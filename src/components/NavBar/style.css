@@ -127,3 +127,10 @@ a.active,a:hover{
   
 
 }
+
+.btn-1{
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 50px;
+
+}

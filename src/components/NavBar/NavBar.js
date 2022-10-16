@@ -22,7 +22,7 @@ export default function NavBar() {
                         <li className='navli'><a onClick={handleClick} href='#Second' className='exo navanchor'>Explore</a></li>
                         <li className='navli'><a onClick={handleClick} href='#Third' className='exo navanchor'>About Us</a></li>
                         <li className='navli'><a onClick={handleClick} href='#Fourth' className='exo navanchor'>Cities</a></li>
-                        <li className='navli'><a onClick={handleClick} href='#' className='exo navanchor'>Call</a></li>
+                        <li className='navli'><a onClick={handleClick} href='#' className='exo navanchor btn-1'>Call</a></li>
                     </ul>
                 </nav>
             </header>
