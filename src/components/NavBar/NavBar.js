@@ -14,7 +14,7 @@ export default function NavBar() {
                 <nav className='headnav'>
                     <input ref={ref} type={'checkbox'} id='check' />
                     <label htmlFor='check' className='checkbtn'>
-                    <i class="fa fa-bars"></i>
+                    <i className="fa fa-bars"></i>
 
                     </label>
                     <label className='logo'>{YOUR_LOGO}</label>

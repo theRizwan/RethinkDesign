@@ -1,13 +1,14 @@
 import { render, screen } from '@testing-library/react';
+import { ALL_RIGHTS, YOUR_LOGO } from '../constants/constants.js';
 import FourthScreen from '../screens/FourthScreen.js/FourthScreen.js';
 
-describe('Test Cases for Main Screen', () => {
+describe('Test Cases for Fourth Screen', () => {
   test('renders the page', () => {
     render(<FourthScreen />);
-    expect(screen.getByText("Your Logo")).toBeInTheDocument();
+    expect(screen.getByText(YOUR_LOGO)).toBeInTheDocument();
   });
-  test('Seach Button should be Present', () => {
+  test('ALL RIGHTS Reserved Message should be Present', () => {
     render(<FourthScreen />);
-    expect(screen.getByText("© 2021 Company Name All rights reserved")).toBeInTheDocument();
+    expect(screen.getByText(ALL_RIGHTS)).toBeInTheDocument();
   });
 }); 
