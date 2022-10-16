@@ -27,6 +27,12 @@ img {
     }
   }
 
+  @media (max-width: 820px) {
+    .main-banner{
+        height: 700px;
+    }
+  }
+
 .main-banner-heading {
     color: #fff;
     display: flex;
